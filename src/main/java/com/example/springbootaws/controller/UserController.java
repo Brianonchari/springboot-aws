@@ -8,6 +8,7 @@ public class UserController {
 
     @GetMapping
     public String demo(){
-        return "<h1>Springboot-aws CI/CD example</h1>";
+        return "<h1>Springboot-aws CI/CD example</h1> </br>" +
+                "<p>Ah! Deployed</p>";
     }
 }
